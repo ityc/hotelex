@@ -1,0 +1,70 @@
+<view class='logos'>
+    <view class='logo'><image src='../images/h_logo.png'></image></view>
+    <view class='adr' bindtap='selectCity'>北京展<image src='../images/arrowBot.png'></image></view>
+</view>
+<!-- 轮播banner -->
+<view class='banner'>
+  <swiper class='swiper-box' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style='height:{{Height}}'>
+    <block wx:for="{{ bannerUrls }}">
+        <swiper-item>
+            <view>
+                <image class="slide-image" src="{{ item.url }}"  bindload='imgHeight' mode='widthFix'></image>
+            </view>
+        </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!--搜索框-->
+<view class="search">
+  <image src="../images/search.png"></image>
+  <input placeholder="搜索展商、展位号"></input>
+</view>
+<view class="type">
+  <view class="item" bindtap='change' data-id="0">
+    <text>品类</text>
+    <image src="../images/down.png"></image>
+  </view>
+  <view class="item" bindtap='change' data-id="1">
+    <text>展馆</text>
+    <image src="../images/down.png"></image>
+  </view>
+  <view class="item" bindtap='change' data-id="2">
+    <text>活动</text>
+    <image src="../images/down.png"></image>
+  </view>
+</view>
+<view class="cut"></view>
+<!--列表-->
+<view class="list" wx:for="{{list}}" wx:key="{{index}}" hidden='{{id!=0}}'> 
+  <view class="left">
+    <view class="title">{{item.title}}</view>
+    <view class="msg">{{item.msg}}</view>
+    <view class="number">{{item.num}}</view>
+  </view>
+  <view class="right">
+    <image src="../images/save.png"></image>
+    <view>收藏</view>
+  </view>
+</view>
+<view class="list" wx:for="{{list}}" wx:key="{{index}}" hidden='{{id!=1}}'> 
+  <view class="left">
+    <view class="title">{{item.title}}</view>
+    <view class="msg">{{item.msg}}</view>
+    <view class="number">{{item.num}}</view>
+  </view>
+  <view class="right">
+    <image src="../images/save.png"></image>
+    <view>收藏</view>
+  </view>
+</view>
+<view class="list" wx:for="{{list}}" wx:key="{{index}}" hidden='{{id!=2}}'> 
+  <view class="left">
+    <view class="title">{{item.title}}</view>
+    <view class="msg">{{item.msg}}</view>
+    <view class="number">{{item.num}}</view>
+  </view>
+  <view class="right">
+    <image src="../images/save.png"></image>
+    <view>收藏</view>
+  </view>
+</view>

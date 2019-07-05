@@ -1,0 +1,20 @@
+<view class="page">
+  <view class="detail">
+    <view class="title">公司名称公司名称</view>
+    <view class="msg">gjfsoaifsoufgjfsoaifsouf</view>
+    <view class="num">展位号E1A01</view>
+    <view class="type">展位分类 食品</view>
+  </view>
+  <image src="../images/position.png" class="position"></image>
+  <view class="footer">
+    <view class="icon">
+      <image src="../images/share.png"></image>
+      <text>分享</text>
+    </view>
+    <view class="icon">
+      <image src="../images/save.png"></image>
+      <text>收藏</text>
+    </view>
+    <view class="button">在线商铺</view>
+  </view>
+</view>

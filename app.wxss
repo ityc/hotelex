@@ -1,0 +1,31 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.flex{display: flex}
+.item{flex: 1}
+
+.logos{display: flex;padding:0 30rpx;padding-bottom: 20rpx}
+.logo{flex: 1}
+.logo image{width: 280rpx;height: 53rpx}
+.adr{font-size:30rpx;color: #be9c59}
+.adr image{width: 16rpx;height: 9rpx;margin-left:8rpx;vertical-align: middle}
+
+.btns{background: #be9c59;color: #fff;margin: 30rpx;height:80rpx;line-height:80rpx;text-align: center;border-radius: 10rpx;
+font-size:30rpx}
+
+.map_container{ 
+    height: 300px; 
+    width: 100%; 
+} 
+
+.map { 
+    height: 100%; 
+    width: 100%; 
+}

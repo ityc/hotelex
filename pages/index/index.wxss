@@ -1,0 +1,58 @@
+
+/* banner轮播 */
+.slide-image{width: 100%;}
+.swiper-box .wx-swiper-dots.wx-swiper-dots-horizontal{margin-bottom: 2rpx;}
+.swiper-box .wx-swiper-dot{width:20rpx; display: inline-flex;height: 5rpx; margin-left: 10rpx;justify-content:space-between;}
+.swiper-box .wx-swiper-dot::before{content: '';flex-grow: 1; background: rgba(255,255,255,0.8);border-radius: 0rpx}
+.swiper-box .wx-swiper-dot-active::before{background: #be9c59;  }
+.swiper-box .wx-swiper-dot-active{width:40rpx; }
+
+/* 菜单 */
+.menuIcon{display: flex;flex-wrap: wrap;margin-top:25px}
+.menuIcon .icon image{width: 60rpx;height: 60rpx}
+.menu{width: 25%;text-align: center;height: 150rpx}
+.menu .name{font-size:28rpx;margin-top:5rpx;color: #333}
+
+/* 广告 */
+.adv,.activity{padding: 0 30rpx}
+.adv .img{width: 690rpx;margin: 0 auto}
+
+/* 活动报名 */
+.activity{margin-top:15px}
+.activity .tit{font-size: 36rpx;color: #333;font-weight: bold;border-left:10rpx solid #be9c59;padding-left:20rpx;}
+.tabMenu{display: flex;margin-top:40rpx}
+.tab{font-size: 28rpx;margin-right:100rpx;color: #666;height:80rpx}
+.curr{color: #be9c59}
+
+.list{margin-bottom:40rpx;display: flex}
+.list .img{width: 180rpx;height: 240rpx;margin-right: 30rpx}
+.list .img image{width: 100%}
+.list .cont{flex: 1}
+.list .title{font-size:29rpx;line-height:34rpx;font-weight: bold}
+.list .itmeAdr{font-size: 24rpx;margin:12rpx 0 20rpx 0;color: #666}
+.list .flex,.btn{font-size:24rpx}
+.red{color: #ff3366;font-weight: bold}
+.list .money{font-size:30rpx;margin-top:15rpx} 
+
+.btn{background: #e5e5e5;border-radius: 10rpx;padding:2rpx 16rpx;margin-right: 20rpx}
+.btn.free{background: #ffcccc;color: #ff3366}
+.btn.charge{background: #e3efc5;color: #32b16c}
+
+.show{display: block}
+.hide{display: none}
+/*城市列表*/
+.searchLetter{position: fixed;right: 0;width: 40px;height: 100%;text-align: center;justify-content: center;display: flex;
+flex-direction: column;color: #666;z-index: 1}
+.searchLetter view{height: 70rpx;}
+.touchClass{background-color: rgba(0, 0, 0,0.5);color: #fff;}
+.showSlectedLetter{background-color: rgba(0, 0, 0,0.5);color: #fff;display: flex;justify-content: center;align-items: center;
+position: fixed;top:50%;left: 50%;margin: -50px;width: 100px;height: 100px;border-radius:10px; font-size: 26px;z-index: 1}
+.selection{display: flex;width: 100%;flex-direction: column;}
+.item_letter{display: flex;background-color: #f8f8f8;height: 30px;padding-left: 10px;align-items: center;}
+.item_city{display: flex;background-color: #fff;height: 40px;padding-left: 10px;align-items: center;border-bottom: 1px solid #f8f8f8;}
+/* 遮罩层*/
+.mask{width:100%;height:100%;background-color:#000;position:fixed;top:0;left:0;opacity:0.5;overflow:hidden;}
+
+
+
+

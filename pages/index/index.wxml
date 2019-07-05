@@ -1,0 +1,225 @@
+<view class='page'>
+    <view class='logos'>
+        <view class='logo'><image src='../images/h_logo.png'></image></view>
+        <view class='adr' bindtap='selectCity'>{{city}}展<image src='../images/arrowBot.png'></image></view>
+    </view>
+
+    <!-- 滚动banner -->
+    <view class='banner'>
+        <swiper class='swiper-box' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style='height:{{Height}}'>
+          <block wx:for="{{ bannerUrls }}">
+              <swiper-item>
+                  <view>
+                      <image class="slide-image" src="{{ item.url }}"  bindload='imgHeight' mode='widthFix'></image>
+                  </view>
+              </swiper-item>
+          </block>
+        </swiper>
+    </view>
+    
+    <!-- 菜单图标 -->
+    <view class='menuIcon'>
+        <view class='menu'>
+            <view class='icon'><image src='../images/h_icon1.png'></image></view>
+            <view class='name'>观众预登记</view>
+        </view>
+        <view class='menu'>
+            <view class='icon'><image src='../images/h_icon2.png'></image></view>
+            <view class='name'>展位预订</view>
+        </view>
+        <view class='menu'>
+            <view class='icon'><image src='../images/h_icon3.png'></image></view>
+            <view class='name'>展商邀请函</view>
+        </view>
+        <view class='menu'>
+            <view class='icon'><image src='../images/h_icon4.png'></image></view>
+            <view class='name'>观众邀请函</view>
+        </view>
+        <view class='menu'>
+            <view class='icon'><image src='../images/h_icon5.png'></image></view>
+            <view class='name'>展会介绍</view>
+        </view>
+        <view class='menu'>
+            <view class='icon'><image src='../images/h_icon6.png'></image></view>
+            <view class='name'>展商查询</view>
+        </view>
+        <view class='menu'>
+            <view class='icon'><image src='../images/h_icon7.png'></image></view>
+            <view class='name'>电子会刊</view>
+        </view>
+        <view class='menu'>
+            <view class='icon'><image src='../images/h_icon8.png'></image></view>
+            <view class='name'>卡券中心</view>
+        </view>
+
+    </view>
+
+    <!-- 滚动广告 -->
+    <view class='adv'>
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{intervals}}" duration="{{durations}}" style='height:{{Heights}}'>
+          <block wx:for="{{ advUrls }}">
+              <swiper-item>
+                  <view>
+                      <image class="img" src="{{ item.url }}" bindload='advHeight'></image>
+                  </view>
+              </swiper-item>
+          </block>
+        </swiper>
+    </view>
+
+    <!-- 活动报名 -->
+    <view class='activity'>
+        <view class='tit'>活动报名</view>
+        <view class='tabMenu'>
+            <view class='tab {{click1?"curr":""}}' bindtap='click1'>全部</view>
+            <view class='tab {{click2?"curr":""}}' bindtap='click2'>活动</view>
+            <view class='tab {{click3?"curr":""}}' bindtap='click3'>论坛</view>
+        </view>
+
+        <view class='listBox'>
+
+          <view class='actList {{click1?"show":"hide"}}'>
+              <view class='list' bindtap='actives'>
+                  <view class='img'><image src='../images/img.jpg' mode='widthFix'></image></view>
+                  <view class='cont'>
+                      <view class='title'>HOTELEX“明日之星”厨师大赛11</view>
+                      <view class='itmeAdr'>
+                          <view>2019.05.18  14:00-17:00</view>
+                          <view>上海新国际博览中心 M19会议室</view>
+                      </view>
+                      <view class='flex'>
+                          <view class='btn'>竞赛</view>
+                          <view class='btn free'>免费</view>
+                          <view>已报名<text class='red'>85</text>人</view>
+                      </view>
+                      
+                  </view>
+              </view>
+              <view class='list'>
+                  <view class='img'><image src='../images/img.jpg' mode='widthFix'></image></view>
+                  <view class='cont'>
+                      <view class='title'>新饮品时代——HOTELEX国际酒店与餐饮业博览会饮品高峰论坛</view>
+                      <view class='itmeAdr'>
+                          <view>2019.05.18  14:00-17:00</view>
+                          <view>上海新国际博览中心 M19会议室</view>
+                      </view>
+                      <view class='flex'>
+                          <view class='btn'>竞赛</view>
+                          <view class='btn charge'>收费</view>
+                          <view>已报名<text class='red'>85</text>人</view>
+                      </view>
+                      <view class='money'>￥300</view>
+                      
+                  </view>
+              </view>
+              <view class='list'>
+                  <view class='img'><image src='../images/img.jpg' mode='widthFix'></image></view>
+                  <view class='cont'>
+                      <view class='title'>新饮品时代——HOTELEX国际酒店与餐饮业博览会饮品高峰论坛</view>
+                      <view class='itmeAdr'>
+                          <view>2019.05.18  14:00-17:00</view>
+                          <view>上海新国际博览中心 M19会议室</view>
+                      </view>
+                      <view class='flex'>
+                          <view class='btn'>竞赛</view>
+                          <view class='btn charge'>收费</view>
+                          <view>已报名<text class='red'>85</text>人</view>
+                      </view>
+                      <view class='money'>￥300</view>
+                      
+                  </view>
+              </view>
+          </view>
+
+          <view class='actList {{click2?"show":"hide"}}'>
+              <view class='list'>
+                  <view class='img'><image src='../images/img.jpg' mode='widthFix'></image></view>
+                  <view class='cont'>
+                      <view class='title'>HOTELEX“明日之星”厨师大赛22</view>
+                      <view class='itmeAdr'>
+                          <view>2019.05.18  14:00-17:00</view>
+                          <view>上海新国际博览中心 M19会议室</view>
+                      </view>
+                      <view class='flex'>
+                          <view class='btn'>竞赛</view>
+                          <view class='btn free'>免费</view>
+                          <view>已报名<text class='red'>85</text>人</view>
+                      </view>
+                      
+                  </view>
+              </view>
+              <view class='list'>
+                  <view class='img'><image src='../images/img.jpg' mode='widthFix'></image></view>
+                  <view class='cont'>
+                      <view class='title'>新饮品时代——HOTELEX国际酒店与餐饮业博览会饮品高峰论坛</view>
+                      <view class='itmeAdr'>
+                          <view>2019.05.18  14:00-17:00</view>
+                          <view>上海新国际博览中心 M19会议室</view>
+                      </view>
+                      <view class='flex'>
+                          <view class='btn'>竞赛</view>
+                          <view class='btn charge'>收费</view>
+                          <view>已报名<text class='red'>85</text>人</view>
+                      </view>
+                      <view class='money'>￥300</view>
+                      
+                  </view>
+              </view>
+          </view>
+
+          <view class='actList {{click3?"show":"hide"}}'>
+              <view class='list'>
+                  <view class='img'><image src='../images/img.jpg' mode='widthFix'></image></view>
+                  <view class='cont'>
+                      <view class='title'>HOTELEX“明日之星”厨师大赛33</view>
+                      <view class='itmeAdr'>
+                          <view>2019.05.18  14:00-17:00</view>
+                          <view>上海新国际博览中心 M19会议室</view>
+                      </view>
+                      <view class='flex'>
+                          <view class='btn'>竞赛</view>
+                          <view class='btn free'>免费</view>
+                          <view>已报名<text class='red'>85</text>人</view>
+                      </view>
+                      
+                  </view>
+              </view>
+              <view class='list'>
+                  <view class='img'><image src='../images/img.jpg' mode='widthFix'></image></view>
+                  <view class='cont'>
+                      <view class='title'>新饮品时代——HOTELEX国际酒店与餐饮业博览会饮品高峰论坛</view>
+                      <view class='itmeAdr'>
+                          <view>2019.05.18  14:00-17:00</view>
+                          <view>上海新国际博览中心 M19会议室</view>
+                      </view>
+                      <view class='flex'>
+                          <view class='btn'>竞赛</view>
+                          <view class='btn charge'>收费</view>
+                          <view>已报名<text class='red'>85</text>人</view>
+                      </view>
+                      <view class='money'>￥300</view>
+                      
+                  </view>
+              </view>
+              <view class='list'>
+                  <view class='img'><image src='../images/img.jpg' mode='widthFix'></image></view>
+                  <view class='cont'>
+                      <view class='title'>新饮品时代——HOTELEX国际酒店与餐饮业博览会饮品高峰论坛</view>
+                      <view class='itmeAdr'>
+                          <view>2019.05.18  14:00-17:00</view>
+                          <view>上海新国际博览中心 M19会议室</view>
+                      </view>
+                      <view class='flex'>
+                          <view class='btn'>竞赛</view>
+                          <view class='btn charge'>收费</view>
+                          <view>已报名<text class='red'>85</text>人</view>
+                      </view>
+                      <view class='money'>￥300</view>
+                      
+                  </view>
+              </view>
+          </view>
+
+        </view>
+    </view>
+</view>

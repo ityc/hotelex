@@ -1,0 +1,85 @@
+<view class="header">
+  <view class="active">
+    <image src="../images/img.jpg"></image>
+    <view class="text">
+      <view class="title">HOTELEX"明日之星"厨师大赛</view>
+      <view class="price">￥300</view>
+    </view>
+  </view>
+  <view class="details">
+    <view class="row">
+      <view class="msg">论坛</view>
+      <view class="msg msg1">收费</view>
+      <view class="number">已报名<text>30</text>人</view>
+    </view>
+    <view class="row">
+      <text>2019.05.18</text>
+      <text>14.00-17.00</text>
+    </view>
+    <view class="row">
+      <text>上海新国际博览中心M19会议室</text>
+    </view>
+  </view>
+</view>
+<view class="cut"></view>
+
+<!--会议内容-->
+<view class="content">
+  <view class="item">
+    <view class="name">会议介绍</view>
+    <view>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</view>
+  </view>
+  <view class="item">
+    <view class="name">会议议程</view>  
+    <view>
+      <text>10.00-12.00</text><text>活动内容</text>
+    </view>
+    <view>
+      <text>13.00-14.00</text><text>活动内容</text>
+    </view>
+    <view>
+      <text>14.00-16.00</text><text>活动内容</text>
+    </view>
+  </view>
+  <view class="item">
+    <view class="name">注意事项</view>
+    <view>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</view>
+  </view>
+</view>
+
+<!--分享收藏-->
+<view class="footer">
+  <view class="icon">
+    <image src="../images/share.png"></image>
+    <text>分享</text>
+  </view>
+  <view class="icon">
+    <image src="../images/save.png"></image>
+    <text>收藏</text>
+  </view>
+  <view class="button" bindtap='select'>立即报名</view>
+  <!--弹出框-->
+  <view class='mask' wx:if="{{show}}" bindtap='hideModal'></view>
+  <view class='choose' wx:if="{{show}}" animation='{{animationData}}'>
+    <view class="row">
+      <view class="tit">身份</view>
+      <view class="items">
+        <view class="step {{num==1?'on':''}}" bindtap='click' data-num="1">选手</view>
+        <view class="step {{num==2?'on':''}}" bindtap='click' data-num="2">观众</view>
+      </view>
+    </view>
+    <view class="row">
+      <view class="tit">票档</view>
+      <view class="items">
+        <view class="step {{num==3?'on':''}}" bindtap='click' data-num="3">280元</view>
+        <view class="step {{num==4?'on':''}}" bindtap='click' data-num="4">480元</view>
+        <view class="step {{num==5?'on':''}}" bindtap='click' data-num="5">680元</view>
+      </view>
+    </view>
+    <view class="choice">
+      <text>请选择身份</text>
+      <view class="but" bindtap='submit'>确定</view>
+    </view>
+  </view> 
+</view>
+

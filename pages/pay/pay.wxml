@@ -1,0 +1,30 @@
+
+<view class="header">
+  <image src="../images/img.jpg"></image>
+  <view class="detail">
+    <view class="title">HOTELEX"明日之星"厨师大赛</view>
+    <view class="msg">2019.05.18 14.00-17.00</view>
+    <view class="msg">上海新国际博览中心M19会议室</view>
+  </view>
+</view>
+<view class="price">
+  <view>收费票</view>
+  <view class="right">
+    <text>X1</text>
+    <text>￥300</text>
+  </view>
+</view>
+<view class="cut"></view>
+<view class="name">
+  <view>姓名</view>
+  <view>13912345678</view>
+</view>
+<view class="cut"></view>
+<view class="refund">
+  <view class="name">退款说明</view>
+  <view class="content">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</view>
+</view>
+<view class="footer">
+  <view class="total">合计￥300</view>
+  <view class="pay">确认支付</view>
+</view>

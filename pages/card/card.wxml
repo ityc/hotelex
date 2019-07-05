@@ -1,0 +1,31 @@
+<view class='page'>
+
+    <view class='card' bindtap='code'>
+        <view class='icon'><image src='../images/img2.png'></image></view>
+        <view class='infos'>
+            <view class='tit'>礼品券</view>
+            <view class='info'>2019.02.06至2019.02.30</view>
+            <view class='info'>兑换地点A2</view>
+        </view>
+    </view>
+
+    <view class='card' bindtap='code'>
+        <view class='icon'><image src='../images/img3.png'></image></view>
+        <view class='infos'>
+            <view class='tit'>午餐券</view>
+            <view class='info'>2019.02.06至2019.02.30</view>
+            <view class='info'>兑换地点A2</view>
+        </view>
+    </view>
+
+    <view class='card already'>
+        <view class='icon'><image src='../images/img2_2.png'></image></view>
+        <view class='infos'>
+            <view class='tit'>礼品券</view>
+            <view class='info'>2019.02.06至2019.02.30</view>
+            <view class='info'>兑换地点A2</view>
+        </view>
+        <view class='img'><image src='../images/draw.png'></image></view>
+    </view>
+
+</view>

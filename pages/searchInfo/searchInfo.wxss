@@ -1,0 +1,14 @@
+.page{margin:25rpx;}
+.detail{border-bottom:1px solid #eee;padding-bottom:40rpx;}
+.detail view{padding:5rpx 0;}
+.detail .title{font-weight:bold;}
+.detail .msg{color:#999;font-size:28rpx;}
+.detail .num{font-size:28rpx;font-weight:bold;}
+.detail .type{font-size:28rpx;color:#666;font-weight:bold;}
+.position{width:100%;padding:50rpx 0;}
+/*底部 */
+.footer{height:80rpx;border-top:1px solid #eee;padding:10rpx 0;display:flex;position:absolute;bottom:0;}
+.footer image{width:40rpx;height:40rpx;}
+.footer text{font-size:22rpx;}
+.footer .icon{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0 15rpx;}
+.footer .button{width:500rpx;height:80rpx;background-color:#bf9e5c;color:#fff;line-height:80rpx;text-align:center;border-radius:50rpx;padding:0 20rpx;}

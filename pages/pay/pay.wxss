@@ -1,0 +1,16 @@
+.header{display:flex;padding-bottom:30rpx;padding:25rpx;}
+.header image{width:180rpx;height:240rpx;}
+.header .detail{padding:10rpx 15rpx;}
+.header .title{font-size:36rpx;font-weight:bold;}
+.header .msg{font-size:24rpx;color:#666;margin:10rpx;}
+.price{border-top:1px solid #eee;display:flex;justify-content:space-between;font-size:28rpx;padding:30rpx 25rpx;}
+.price .right text{margin:0 30rpx;}
+.price .right text:last-child{color:red}
+.cut{background-color:#eee;height:15rpx;}
+.name{display:flex;justify-content:space-between;padding:30rpx 25rpx;font-size:28rpx;}
+.refund .name{font-weight:bold;}
+.refund .content{font-size:28rpx;padding:10rpx 25rpx;}
+/*底部*/
+.footer{border-top:1px solid #eee;position:absolute;bottom:0;height:100rpx;line-height:100rpx;width:100%;display:flex;justify-content:space-between;}
+.footer .total{font-size:32rpx;color:red;padding-left:25rpx;}
+.footer .pay{width:300rpx;height:100rpx;background-color:#c2a060;text-align:center;color:#fff;font-size:32rpx;font-weight:bold;}

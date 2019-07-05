@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/info/info",
+    "pages/actives/actives",
+    "pages/badge/badge",
+    "pages/city/city",
+    "pages/search/search",
+    "pages/searchInfo/searchInfo",
+    "pages/pay/pay",
+    "pages/code/code",
+    "pages/card/card",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/logs/logs",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#be9c59",
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/foot1.png",
+        "selectedIconPath": "pages/images/foot1_curr.png"
+      },
+      {
+        "pagePath": "pages/badge/badge",
+        "text": "胸卡",
+        "iconPath": "pages/images/foot2.png",
+        "selectedIconPath": "pages/images/foot2_curr.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "展商查询",
+        "iconPath": "pages/images/foot3.png",
+        "selectedIconPath": "pages/images/foot3_curr.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "pages/images/foot4.png",
+        "selectedIconPath": "pages/images/foot4_curr.png"
+      }
+    ]
+  }
+}

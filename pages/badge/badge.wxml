@@ -1,0 +1,28 @@
+<view class='page'>
+    <view class='logos'>
+        <view class='logo'><image src='../images/h_logo.png'></image></view>
+        <view class='adr'>{{city}}展<image src='../images/arrowBot.png'></image></view>
+    </view>
+    <view class='banner'><image src='../images/banner3.jpg' mode='widthFix'></image></view>
+
+    <!-- 列表 -->
+     <view class='listBox'>
+
+         <view class='row' bindtap='detail'>
+            <view class='item'>展会胸卡</view>
+            <view class='img'><image src='../images/icon7.png' mode='widthFix'></image></view>
+        </view>
+
+        <view class='row' bindtap='detail'>
+            <view class='item'>活动胸卡</view>
+            <view class='img'><image src='../images/icon7.png' mode='widthFix'></image></view>
+        </view>
+
+        <view class='row' bindtap='detail'>
+            <view class='item'>咖啡节胸卡</view>
+            <view class='img'><image src='../images/icon7.png' mode='widthFix'></image></view>
+        </view> 
+
+    </view> 
+
+</view>

@@ -1,0 +1,13 @@
+.page{padding: 30rpx}
+.card{display: flex;padding:40rpx;margin-top: 20rpx;background: #fff;box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);border-radius:10rpx;margin-bottom:35rpx}
+.card .icon image{width: 110rpx;height: 110rpx;margin-right: 30rpx;border-radius: 50%}
+.card .infos{flex: 1}
+.card .info{font-size: 26rpx;line-height:35rpx;color: #888}
+.card .tit{font-size:34rpx;font-weight: bold;color: #333;height:60rpx}
+.card .see{font-size: 28rpx;color: #666;align-self: center}
+.card .see image{width: 9rpx;height: 16rpx;margin-left: 10rpx}
+
+.already{position: relative}
+.already .tit,.already .info{color: #ccc}
+.already .img{position: absolute;right:10rpx;top: 10rpx}
+.already .img image{width: 140rpx;height: 140rpx}

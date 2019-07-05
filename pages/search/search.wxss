@@ -1,0 +1,25 @@
+/* banner轮播 */
+.slide-image{width: 100%;}
+.swiper-box .wx-swiper-dots.wx-swiper-dots-horizontal{margin-bottom: 2rpx;}
+.swiper-box .wx-swiper-dot{width:20rpx; display: inline-flex;height: 5rpx; margin-left: 10rpx;justify-content:space-between;}
+.swiper-box .wx-swiper-dot::before{content: '';flex-grow: 1; background: rgba(255,255,255,0.8);border-radius: 0rpx}
+.swiper-box .wx-swiper-dot-active::before{background: #be9c59;  }
+.swiper-box .wx-swiper-dot-active{width:40rpx; }
+/*搜索框*/
+.search{position:relative;margin:20rpx 15rpx;}
+.search input{background-color:#eee;width:520rpx;border-radius:50rpx;font-size:24rpx;padding:10rpx 100rpx;}
+.search image{width:34rpx;height:30rpx;position:absolute;top:20rpx;left:20rpx;}
+/*分类导航*/
+.type{font-size:28rpx;display:inline-block;}
+.type .item{display:inline-block;margin:0 50rpx 0 25rpx;}
+.type image{width:18rpx;height:9rpx;margin:5rpx 10rpx;}
+.cut{height:10rpx;background-color:#eee;margin:20rpx 0;}
+/*列表*/
+.list{display:flex;margin:25rpx;justify-content:space-between;border-bottom:1px solid #eee;}
+.list .title{font-size:30rpx;margin:10rpx 0;}
+.list .msg{font-size:24rpx;color:#666;margin:10rpx 0;}
+.list .number{font-size:26rpx;font-weight:bold;color:#666;margin:5rpx 0 40rpx;}
+.list .right{margin:50rpx 0;display:flex;}
+.list .right image{width:40rpx;height:40rpx;}
+.list .right view{font-size:28rpx;margin:5rpx;}
+.list:last-child{margin-bottom:80rpx;}

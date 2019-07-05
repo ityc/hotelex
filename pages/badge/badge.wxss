@@ -1,0 +1,39 @@
+
+.banner image{width: 100%}
+/* 胸卡列表 */
+ .listBox{padding: 0 30rpx;margin-top: 20px;}
+.row{display: flex;border-top: 1px solid #eee;height: 100rpx;line-height: 100rpx}
+.row .img{width: 9rpx;height: 16rpx}
+.row .img image{width: 100%}
+.row .item{font-size:32rpx} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+<view class="page">
+  <view class="title">2020年世界咖啡冲煮大赛中国区预选赛北京分赛区</view>
+  <view class="form">
+    <view class="item">
+      <text>姓名</text>
+      <input placeholder='请输入姓名' name="name" value="{{name}}" require="true"></input>
+    </view>
+    <view class="item">
+      <text>性别</text>
+      <view class="radio-box" wx:for="{{radios}}" wx:key="{{index}}">
+        <label class="radio {{index==sex?'on':''}}" data-value="{{index}}" bindtap='check'>
+        </label>
+         {{item.label}} 
+      </view>  
+    </view>
+    <view class="item">
+      <text>身份证号</text>
+      <input placeholder='请输入身份证号' name="id"></input>
+    </view>
+    <view class="item">
+      <text>手机</text>
+      <input placeholder='请输入手机号' name="phone" value='{{phone}}' require="true"></input>
+    </view>
+      <view class="item">
+      <text>邮箱</text>
+      <input placeholder='请输入邮箱地址' name="email" value='{{email}}' require="true"></input>
+    </view>
+    <view class="item">
+      <text>公司</text>
+      <input placeholder='请输入公司名称' name="company" value='{{company}}' require="true"></input>
+    </view>
+    <view class="item">
+      <text>邮寄地址</text>
+      <input placeholder='请输入详细地址' name="address"></input>
+    </view>
+    <view class="self">
+      <text>个人简介</text>
+       <textarea placeholder="请输入个人简介" class="test" name="self"></textarea> 
+    </view>
+    <view class="img">
+      <text>本人照片</text>
+      <view class="msg">支持jpg,gif,psd,tif等图片格式</view>
+      <image src="../images/submit.png"></image>
+    </view>
+  </view>
+  <view class="submit" bindtap='submit'>提交</view>
+</view>

@@ -1,0 +1,22 @@
+<view class='page'>
+    <view class='logos'>
+        <view class='logo'><image src='../images/h_logo.png'></image></view>
+        <view class='adr'>北京展<image src='../images/arrowBot.png'></image></view>
+    </view>
+
+    <!-- 内容 -->
+    <view class='conts'>
+        <view class='img'><image src='../images/banner2.jpg' mode='widthFix'></image></view>
+        <view class='code'>
+            <image src='../images/code.jpg' mode='widthFix'></image>
+            <view class='info'>展会预登记号：<text>123456789</text></view>
+        </view>
+
+    </view>
+    <view class='explain'>
+        <view class='info'>您已成功报名2019北京国际酒店用品及餐饮博览会现场活动，请凭此预登记号于2019.7.1-7.3期间，到北京国家会议中心1号入口大厅，“活动与论坛”预登记观众兑换柜台兑换胸卡，凭胸卡入场。</view>
+    </view>
+
+    <view class='btns'>邀请更多好友参观，赢取好礼！</view>
+
+</view>

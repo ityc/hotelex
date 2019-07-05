@@ -1,0 +1,49 @@
+.headInfo{display: flex;padding: 30rpx;margin-top: 20rpx}
+.headInfo .head image{width: 130rpx;height: 130rpx;margin-right: 30rpx;border-radius: 50%}
+.headInfo .infos{flex: 1}
+.headInfo .info{font-size: 26rpx;line-height:35rpx;color: #666}
+.headInfo .tit{font-size:34rpx;font-weight: bold;color: #333;height:60rpx}
+.headInfo .see{font-size: 28rpx;color: #666;align-self: center}
+.headInfo .see image{width: 9rpx;height: 16rpx;margin-left: 10rpx}
+
+/* 分类 */
+.classify,.listBox{border-top:10rpx solid #eee;}
+.classify{margin-top:15rpx;padding:40rpx 30rpx}
+.classify .tit{font-size: 34rpx;font-weight: bold}
+.cont:first-child{margin-bottom:70rpx}
+/* 菜单 */
+.menuIcon{display: flex;flex-wrap: wrap;margin-top:25px;justify-content:space-between;padding: 0 30rpx}
+.menuIcon .icon image{width: 60rpx;height: 60rpx}
+.menu{text-align: center;}
+.menu .name{font-size:28rpx;margin-top:5rpx;color: #333}
+
+/* 列表 */
+.row{display: flex;border-top: 1px solid #eee;height: 120rpx;line-height: 120rpx;padding: 0 30rpx}
+.row .img image{width: 9rpx;height: 16rpx}
+.row .item{font-size:32rpx}
+.row .item text{background:#f33;color:#fff;width:35rpx;height:35rpx;border-radius:50%;display:inline-block;
+  line-height:35rpx;text-align:center;font-size:24rpx;margin-left: 10rpx}
+.row .pic{width: 60rpx;height: 60rpx;line-height: 60rpx;border: 1px solid #ddd;border-radius: 50%;align-self: center;margin-right: 20rpx}
+.row .pic image{width: 58rpx;height: 28rpx}
+
+.listBox:last-child{border-bottom: 1px solid #eee;margin-bottom: 40rpx}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

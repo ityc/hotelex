@@ -1,0 +1,29 @@
+page{background: #e5e5e5}
+.logos{background: #fff;margin-bottom: 30rpx}
+
+.conts,.explain{background: #fff;border-radius:20rpx;margin:0 30rpx;padding:30rpx;box-sizing: border-box}
+.conts .img image{width:100%}
+
+.code{text-align: center;margin-top:60rpx}
+.code image{width: 200rpx;height: 200rpx}
+.conts .info,.explain .info{font-size: 28rpx;margin-top: 15rpx;color: #999;line-height:45rpx}
+.conts .info text{color: #333}
+
+.explain{border-top:2px dashed #e5e5e5}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
